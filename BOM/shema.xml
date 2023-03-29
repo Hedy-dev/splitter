@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\shema\shema.kicad_sch</source>
+    <date>29.03.2023 13:05:06</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>shema.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>power_sheme:led_smd_TO-2013BC</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d84009a3-fbe5-4924-a722-2b2c9b5a272a</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>power_sheme:led_smd_TO-2013BC</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>603610d9-759c-4593-8723-2764f1bd3c1f</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>power_sheme:led_smd_TO-2013BC</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4965f12f-5427-4924-9f43-80aacf6f1118</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N47xxA</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/85816/1n4728a.pdf</datasheet>
+      <libsource lib="Diode" part="1N47xxA" description="1300mW Silicon planar power Zener diodes, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc655c10-4e17-4117-8380-a92b557af19c</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e2f9c6e-9ac8-43f8-9831-9061ce14d046</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c600cdb0-7cb0-4854-be81-9aea383be999</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52a3ca0b-00c7-446c-b401-38f62c5945f1</tstamps>
+    </comp>
+    <comp ref="DC_DC1">
+      <value>SKA15A-05</value>
+      <footprint>power_sheme:SKA15A-05_50.8x25.4</footprint>
+      <datasheet>https://static.chipdip.ru/lib/409/DOC016409607.pdf</datasheet>
+      <libsource lib="power_Library" part="SKA15A-05" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85e898d6-983f-4977-9dfa-e5b961e989c1</tstamps>
+    </comp>
+    <comp ref="D_power1">
+      <value>LED</value>
+      <footprint>power_sheme:GNL-3012_3x3_led_diode</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e90dcaf-2222-4e83-aafa-b2e27dcfe00a</tstamps>
+    </comp>
+    <comp ref="D_power2">
+      <value>LED</value>
+      <footprint>power_sheme:GNL-3012_3x3_led_diode</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6917cb32-a12b-487f-9cf2-7cb887b3ab7e</tstamps>
+    </comp>
+    <comp ref="D_power3">
+      <value>LED</value>
+      <footprint>power_sheme:GNL-3012_3x3_led_diode</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5652bd80-9116-4e54-9d0e-eb2b51083822</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>power_sheme:fh102_5_20</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f477b01-3c04-4a36-9ddc-60a2bb78b571</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>Fuse</value>
+      <footprint>power_sheme:fh102_5_20</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>436a65f3-05d8-47ff-91de-aa8ff88efc62</tstamps>
+    </comp>
+    <comp ref="F3">
+      <value>Fuse</value>
+      <footprint>power_sheme:fh102_5_20</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c0618bb-8291-44f3-bd14-2a8d7fd243e6</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>power_sheme:ASW_ON_ON_3P</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>967f84d1-d79b-4b24-87ae-52fa99f469d8</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>power_sheme:ASW_ON_ON_3P</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0e70207-ed91-46fb-a072-10214b6bd602</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>power_sheme:ASW_ON_ON_3P</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0c9ff8f-1c1f-4501-afbc-d794375391c7</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>power_sheme:ASW_ON_ON_3P</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ff7959f-63b9-41c1-8c39-00d956080fcd</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRLML6402</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c</datasheet>
+      <libsource lib="Transistor_FET" part="IRLML6402" description="-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c77a4b02-35f1-416b-b67c-c826765472b5</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>power_sheme:SMD1206-1K</footprint>
+      <libsource lib="pspice" part="R" description="Resistor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b7cc357-5a1a-45a9-8c6b-9ab6f852ff3a</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>power_sheme:SMD1206-1K</footprint>
+      <libsource lib="pspice" part="R" description="Resistor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b6ac4cf-5a0d-4ea3-b250-1d9227cf2357</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>power_sheme:SMD1206-1K</footprint>
+      <libsource lib="pspice" part="R" description="Resistor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab57154b-e5f5-4f56-9f37-caa2c13c2a84</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>power_sheme:SMD1206-1K</footprint>
+      <libsource lib="pspice" part="R" description="Resistor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60d20670-347e-4524-b6bb-24ceb107be53</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_ON_ON</value>
+      <footprint>power_sheme:ASW_ON_ON_3P</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c372b56-fcb3-4992-8da9-0c34dadea34f</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_ON_ON</value>
+      <footprint>power_sheme:ASW_ON_ON_3P</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8ae2857-da73-41a4-91b2-d6797ad7e323</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_ON_ON</value>
+      <footprint>power_sheme:ASW_ON_ON_3P</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8d8f008-cd84-4b20-9041-9d5763bd0fe9</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N47xxA">
+      <description>1300mW Silicon planar power Zener diodes, DO-41</description>
+      <docs>https://www.vishay.com/docs/85816/1n4728a.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N47xxA</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85816/1n4728a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRLML6402">
+      <description>-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23</description>
+      <docs>https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRLML6402</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="power_Library" part="SKA15A-05">
+      <fields>
+        <field name="Reference">DC_DC</field>
+        <field name="Value">SKA15A-05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+Vin" type="input"/>
+        <pin num="2" name="-Vin" type="input"/>
+        <pin num="3" name="+Vout" type="output"/>
+        <pin num="4" name="No_Pin" type="output"/>
+        <pin num="5" name="-Vout" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="R">
+      <description>Resistor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\Program files\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Program files\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>D:\Program files\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>D:\Program files\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>D:\Program files\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="power_Library">
+      <uri>D:\shema/power_Library.kicad_sym</uri>
+    </library>
+    <library logical="pspice">
+      <uri>D:\Program files\6.0\share\kicad\symbols\/pspice.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V_rpi">
+      <node ref="DC_DC1" pin="3" pinfunction="+Vout" pintype="output"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="2" name="-V_rpi">
+      <node ref="DC_DC1" pin="5" pinfunction="-Vout" pintype="output"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D_power1-Pad1)">
+      <node ref="D_power1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D_power2-Pad1)">
+      <node ref="D_power2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D_power3-Pad1)">
+      <node ref="D_power3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="17" name="V_minus">
+      <node ref="DC_DC1" pin="2" pinfunction="-Vin" pintype="input"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="load_QR">
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="load_RPi">
+      <node ref="DC_DC1" pin="1" pinfunction="+Vin" pintype="input"/>
+      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="load_wicket">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="power_circuit">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D_power1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D_power2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D_power3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(DC_DC1-Pad4)">
+      <node ref="DC_DC1" pin="4" pinfunction="No_Pin" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
